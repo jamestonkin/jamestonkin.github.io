@@ -33,7 +33,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #487890;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -488,7 +488,7 @@ footer {
         right: auto;
         height: 100%;
         width: 3px;
-        background: $base-color;
+        background: #F07830;
         z-index: 0;
     }
 
@@ -497,8 +497,8 @@ footer {
         content: '';
         width: 3px;
         height: 40px;
-        background: $base-color;
-        background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
+        background: #F07830;
+        background: linear-gradient(to bottom, #F07830, rgba(#F07830, 0));
         top: 100%;
         left: 303px;
     }
@@ -546,7 +546,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: $base-color;
+    background: #F07830;
     border-radius: 50%;
     float: left;
     z-index: 99;
